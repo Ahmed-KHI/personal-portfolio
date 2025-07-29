@@ -90,7 +90,7 @@ const App: React.FC = () => {
       {/* Robot Assistant */}
       <AnimatePresence>
         {showRobot && !selectedSection && (
-          <RobotAssistant onClose={() => setShowRobot(false)} />
+          <RobotAssistant />
         )}
       </AnimatePresence>
     </div>
